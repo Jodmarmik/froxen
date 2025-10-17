@@ -7,21 +7,21 @@ services:
     startCommand: "python main.py"
     envVars:
       - key: API_HASH
-        sync: false
+        sync: true
       - key: API_ID
-        sync: false
+        sync: true
       - key: ASSISTANT_SESSION
-        sync: false
+        sync: true
       - key: BOT_TOKEN
-        sync: false
+        sync: true
       - key: OWNER_ID
-        sync: false
+        sync: true
       - key: MongoDB_url
-        sync: false
+        sync: true
       - key: UPDATES_CHANNEL
-        sync: false
+        sync: true
       - key: SUPPORT_GROUP
-        sync: false
+        sync: true
 
 
 
